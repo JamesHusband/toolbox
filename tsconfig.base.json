@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "nx-lib-generator": ["libs/nx-lib-generator/src/index.ts"]
+      "gpt-nx-generator": ["scaffolding/gpt-nx-generator/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

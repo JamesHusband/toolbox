@@ -1,0 +1,20 @@
+{
+  "name": "gpt-nx-generator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "scaffolding/gpt-nx-generator/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/scaffolding/gpt-nx-generator",
+        "tsConfig": "scaffolding/gpt-nx-generator/tsconfig.lib.json",
+        "packageJson": "scaffolding/gpt-nx-generator/package.json",
+        "main": "scaffolding/gpt-nx-generator/src/index.ts",
+        "assets": ["scaffolding/gpt-nx-generator/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
