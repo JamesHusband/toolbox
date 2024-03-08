@@ -1,0 +1,20 @@
+{
+  "name": "nx-lib-generator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/nx-lib-generator/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/nx-lib-generator",
+        "tsConfig": "libs/nx-lib-generator/tsconfig.lib.json",
+        "packageJson": "libs/nx-lib-generator/package.json",
+        "main": "libs/nx-lib-generator/src/index.ts",
+        "assets": ["libs/nx-lib-generator/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

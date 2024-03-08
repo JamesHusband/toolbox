@@ -1,0 +1,11 @@
+{
+  "name": "nx-lib-generator",
+  "version": "1.0.0",
+  "description": "A tool to scaffold and generate code based on config.json.",
+  "bin": {
+    "generate-project": "./bin/generator.js"
+  },
+  "dependencies": {
+
+  }
+}
